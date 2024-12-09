@@ -1,0 +1,18 @@
+// chords
+$: chord("<D^7@1 D7@1 G7@1 Gm^7@1 F#m7@1 Bm11@1 Em9@1 G7@1>").voicing()
+  .sound("sine")
+  .gain(1)
+  .lpf(slider(4985.3, 100, 5000))
+  .pan(slider(1))
+  .hush()
+
+// guitar melody
+//$: note("<h3 e3 d3 g4 <d3 g4 e3 h3>*4>*4").
+  //sound("gm_distortion_guitar:3")
+  //.hush()
+
+// drums
+$: sound("bd*4, [~ oh]*4,[~ sd]*2").bank("AkaiLinn")
+  .gain(slider(0, 0.0, 1, 0.5))
+  .hush()
+  ._scope()
