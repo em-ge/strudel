@@ -1,4 +1,6 @@
 # strudel
- Some strudel-music.
+ some strudel-music
  
- Run and Code on [strudel.cc](https://strudel.cc)
+ Run and Write Code on [strudel.cc](https://strudel.cc).
+
+ Feel free to get inspired here.
